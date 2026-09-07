@@ -1,7 +1,9 @@
 #include <stdio.h>
 
 void ordenar(int vector[]) {
-    int i, j, temporal;
+    int i;
+    int j;
+    temporal;
 
     for(i = 0; i < 10; i++) {
         for(j = i + 1; j < 10; j++) {
